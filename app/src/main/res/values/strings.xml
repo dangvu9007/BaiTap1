@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BaiTap1</string>
+    <string name="btn_text_reset">Reset</string>
+    <string name="text_teamA">TEAM A</string>
+    <string name="text_teamB">TEAM B</string>
+    <string name="btn_Cong1">+1 POINT</string>
+    <string name="btn_Cong2">+2 POINT</string>
+    <string name="btn_Cong3">+3 POINT</string>
+    <string name="txtDefaultPoint">0</string>
+</resources>
