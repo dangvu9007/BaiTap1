@@ -71,23 +71,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int chon= v.getId();
         if (chon==btnCong1A.getId()){
             currentCountA++;
-            txtPoitTeamA.setText(String.valueOf(currentCountA));
         }else  if (chon==btnCong2A.getId()){
             currentCountA+=2;
-            txtPoitTeamA.setText(String.valueOf(currentCountA));
         }else  if (chon==btnCong3A.getId()){
             currentCountA+=3;
-            txtPoitTeamA.setText(String.valueOf(currentCountA));
         }else  if (chon==btnCong1B.getId()){
             currentCountB++;
-            txtPoitTeamB.setText(String.valueOf(currentCountB));
         }else if (chon==btnCong2B.getId()){
             currentCountB+=2;
-            txtPoitTeamB.setText(String.valueOf(currentCountB));
         }else if(chon==btnCong3B.getId()){
             currentCountB+=3;
-            txtPoitTeamB.setText(String.valueOf(currentCountB));
         }
+        txtPoitTeamA.setText(String.valueOf(currentCountA));
+        txtPoitTeamB.setText(String.valueOf(currentCountB));
     }
 
 }
