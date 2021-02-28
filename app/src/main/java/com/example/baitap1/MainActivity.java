@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
     private void reset(){
-        txtPoitTeamB.setText("0");
-        txtPoitTeamA.setText("0");
+       currentCountA=0;
+       currentCountB=0;
     }
 
     @Override
